@@ -1,0 +1,13 @@
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting.Core\bin\Debug\ServerHosting.Core.dll
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting.Core\bin\Debug\ServerHosting.Core.pdb
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting.Core\obj\Debug\ServerHosting.Core.csprojResolveAssemblyReference.cache
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting.Core\obj\Debug\ServerHosting.Core.dll
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting.Core\obj\Debug\ServerHosting.Core.pdb
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\bin\Debug\ServerHosting.Core.dll
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\bin\Debug\ServerHosting.Core.pdb
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\obj\Debug\ServerHosting.Core.csprojResolveAssemblyReference.cache
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\obj\Debug\ServerHosting.Core.dll
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\obj\Debug\ServerHosting.Core.pdb
