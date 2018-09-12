@@ -1,0 +1,32 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+<div class="jumbotron">
+  <h1>Server Health Check</h1>
+</div>
+
+<div class="text-right">
+    
+</div>
+
+<ul class="list-group">
+    <li class="list-group-item active">Available Servers
+        <span class="badge badge-primary badge-pill">
+          <button type="button" class="btn btn-active" (click)="reloadData();">Refresh</button>
+        </span>
+    </li>
+    
+    <li *ngFor="let status of serverStatus" class="list-group-item d-flex justify-content-between align-items-center">
+      {{status.hostname}}
+      <span class="badge badge-primary badge-pill list-group-item-success">ONLINE</span>
+    </li>
+    
+    <li *ngIf="loadingData" class="list-group-item d-flex justify-content-between align-items-center">
+        Connecting to health service...
+    </li>
+    
+    <li *ngIf="!serverStatus && !loadingData" class="list-group-item d-flex justify-content-between align-items-center">
+      Unable to connect to health service
+    </li>
+
+</ul>
+</div>
