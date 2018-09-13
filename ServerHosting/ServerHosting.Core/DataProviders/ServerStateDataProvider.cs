@@ -11,29 +11,34 @@ namespace ServerHosting.Core.DataProviders
 {
     public class ServerStateDataProvider : IServerStateDataProvider
     {
-        public HttpClient JsonClient { get; set; }
+        private HttpClient _httpClient;
 
         public ServerStateDataProvider()
         {
-            if (JsonClient == null)
-            {
-                JsonClient = new HttpClient();
-            }
-
-            JsonClient.BaseAddress = new Uri(ConfigurationManager.AppSettings["JsonDataStorgeUrl"].ToString());
+            _httpClient = new HttpClient {
+                BaseAddress = new Uri(ConfigurationManager.AppSettings["JsonDataStorgeUrl"].ToString())
+            };
         }
 
         public async Task<IList<ServerStatus>> GetAsync()
         {
-            var response = JsonClient.GetAsync("").Result;
-            if (response.IsSuccessStatusCode)
+            List<ServerStatus> data = null;
+            try
             {
-                string responseBody = await response.Content.ReadAsStringAsync();
-                var data = JsonConvert.DeserializeObject<List<ServerStatus>>(responseBody);
+                HttpResponseMessage response = await _httpClient.GetAsync(string.Empty);
+                if (response.IsSuccessStatusCode)
+                {
+                    data = JsonConvert.DeserializeObject<List<ServerStatus>>(
+                                await response.Content.ReadAsStringAsync()
+                            );
+                }
+  
                 return data;
             }
-
-            return null;
+            catch(Exception ex)
+            {
+                return data;
+            }
         }
     }
 }

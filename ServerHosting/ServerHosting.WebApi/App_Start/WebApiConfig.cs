@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Http.Headers;
 using System.Web.Http;
 
 namespace ServerHosting.WebApi
@@ -10,6 +11,8 @@ namespace ServerHosting.WebApi
             // Web API configuration and services
             UnityConfig.RegisterComponents();
 
+            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
+
             // Web API routes
             config.MapHttpAttributeRoutes();
 
@@ -18,14 +21,7 @@ namespace ServerHosting.WebApi
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-
-            GlobalConfiguration.Configuration.Formatters.JsonFormatter.MediaTypeMappings
-                    .Add(new System.Net.Http.Formatting.RequestHeaderMapping("Accept",
-                              "text/html",
-                              StringComparison.InvariantCultureIgnoreCase,
-                              true,
-                              "application/json"));
-
+            
             config.EnableCors();
         }
     }
