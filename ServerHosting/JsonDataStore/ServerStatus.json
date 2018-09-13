@@ -27,6 +27,6 @@
     {
       "State":"busy",
       "IpAddress":"127.0.0.1",
-      "HostName":"mail.serverhosting.com"
+      "HostName":"backupserver.serverhosting.com"
    }
 ]
