@@ -63,3 +63,6 @@ C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\Se
 C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.WebApi\bin\Unity.ServiceLocation.pdb
 C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.WebApi\bin\ServerHosting.Core.dll
 C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.WebApi\bin\ServerHosting.Core.pdb
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.WebApi\bin\System.Web.Cors.dll
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.WebApi\bin\System.Web.Http.Cors.dll
+C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.WebApi\bin\System.Web.Http.Cors.xml
