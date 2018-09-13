@@ -1,27 +1,32 @@
 [
    {
-      "State":"ONLINE",
-      "IpAddress":"127.0.0.1",
+      "State":"online",
+      "IpAddress":"110.174.72.176",
       "HostName":"databaseserver.serverhosting.com"
    },
    {
-      "State":"ONLINE",
-      "IpAddress":"127.0.0.1",
+      "State":"online",
+      "IpAddress":"110.174.72.177",
       "HostName":"appserver.serverhosting.com"
    },
    {
-      "State":"OFFLINE",
-      "IpAddress":"127.0.0.1",
+      "State":"offline",
+      "IpAddress":"110.174.72.178",
       "HostName":"webserver.serverhosting.com"
    },
    {
-      "State":"ONLINE",
-      "IpAddress":"127.0.0.1",
+      "State":"online",
+      "IpAddress":"110.174.72.179",
       "HostName":"dc.serverhosting.com"
    },
    {
-      "State":"ONLINE",
-      "IpAddress":"127.0.0.1",
+      "State":"online",
+      "IpAddress":"110.174.72.180",
       "HostName":"mail.serverhosting.com"
+   },
+    {
+      "State":"offline",
+      "IpAddress":"110.174.72.181",
+      "HostName":"backupserver.serverhosting.com"
    }
 ]
