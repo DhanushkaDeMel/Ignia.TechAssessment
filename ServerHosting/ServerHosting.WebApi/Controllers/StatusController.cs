@@ -2,10 +2,13 @@
 using ServerHosting.WebApi.Mapper;
 using ServerHosting.WebApi.Models;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace ServerHosting.WebApi.Controllers
 {
+    [EnableCors("*", "*", "*")]
     public class StatusController : ApiController
     {
         private IServerStatusService _serverStatusService;
@@ -16,9 +19,10 @@ namespace ServerHosting.WebApi.Controllers
         }
 
         // GET api/values
-        public IEnumerable<ServerStatusModel> Get()
+        public async Task<IEnumerable<ServerStatusModel>> Get()
         {
-            return _serverStatusService.Get().ToModel();
+            var result = await _serverStatusService.GetAsync();
+            return result.ToModel();
         }
     }
 }

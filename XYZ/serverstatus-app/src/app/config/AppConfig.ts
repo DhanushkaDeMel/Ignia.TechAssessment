@@ -8,8 +8,7 @@ export class AppConfig {
 
     constructor() {
         this._config = { 
-            //PathAPI: 'https://igniatechassessment.blob.core.windows.net/serverhosting/serverStatus.json'
-            PathAPI: 'https://api.myjson.com/bins/7v1dk'
+            PathAPI: 'https://igniaserverhosting.azurewebsites.net/api/status'
         };
     }
 

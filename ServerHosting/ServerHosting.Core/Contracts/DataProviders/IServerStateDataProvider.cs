@@ -1,10 +1,11 @@
 ﻿using ServerHosting.Core.Entities;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ServerHosting.Core.Contracts.DataProviders
 {
     public interface IServerStateDataProvider
     {
-        IList<ServerStatus> Get();
+        Task<IList<ServerStatus>> GetAsync();
     }
 }

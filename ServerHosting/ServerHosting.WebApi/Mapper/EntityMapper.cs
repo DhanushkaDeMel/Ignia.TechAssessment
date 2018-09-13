@@ -19,7 +19,7 @@ namespace ServerHosting.WebApi.Mapper
                 {
                     HostName = e.HostName,
                     IpAddress = e.IpAddress,
-                    State = e.State
+                    State = e.State.ToUpper()
                 }
                 ).ToList();
             }

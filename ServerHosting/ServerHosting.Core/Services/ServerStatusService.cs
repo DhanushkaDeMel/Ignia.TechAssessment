@@ -2,6 +2,7 @@
 using ServerHosting.Core.Contracts.Services;
 using ServerHosting.Core.Entities;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ServerHosting.Core.Services
 {
@@ -14,9 +15,9 @@ namespace ServerHosting.Core.Services
             _serverStateDataProvider = serverStateDataProvider;
         }
 
-        public IList<ServerStatus> Get()
+        public Task<IList<ServerStatus>> GetAsync()
         {
-            return _serverStateDataProvider.Get();
+            return _serverStateDataProvider.GetAsync();
         }
     }
 }

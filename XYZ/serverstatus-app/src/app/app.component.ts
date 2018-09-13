@@ -31,7 +31,7 @@ export class AppComponent {
     this.serverHealthService.get()
       .subscribe(
         (data: any) => {
-          this.serverStatus = data.status as ServerStatus[]; 
+          this.serverStatus = data as ServerStatus[]; 
           this.loadingData = false;
         }, // success path
         error => { 

@@ -15,9 +15,9 @@
         </span>
     </li>
     
-    <li *ngFor="let status of serverStatus" class="list-group-item d-flex justify-content-between align-items-center">
-      {{status.hostname}}
-      <span class="badge badge-primary badge-pill list-group-item-success">ONLINE</span>
+    <li *ngFor="let server of serverStatus" class="list-group-item d-flex justify-content-between align-items-center">
+      {{server.HostName}}
+      <span [ngClass]="server.State == 'ONLINE' ? 'badge badge-primary badge-pill list-group-item-success' : 'badge badge-primary badge-pill list-group-item-danger'">{{server.State}}</span>
     </li>
     
     <li *ngIf="loadingData" class="list-group-item d-flex justify-content-between align-items-center">
