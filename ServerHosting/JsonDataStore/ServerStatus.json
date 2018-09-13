@@ -25,7 +25,7 @@
       "HostName":"mail.serverhosting.com"
    },
     {
-      "State":"busy",
+      "State":"offline",
       "IpAddress":"110.174.72.181",
       "HostName":"backupserver.serverhosting.com"
    }
