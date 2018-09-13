@@ -1,6 +1,0 @@
-C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\bin\Release\ServerHosting.Core.dll
-C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\bin\Release\ServerHosting.Core.pdb
-C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\bin\Release\Newtonsoft.Json.dll
-C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\bin\Release\Newtonsoft.Json.xml
-C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\obj\Release\ServerHosting.Core.dll
-C:\Users\Dhanushka De Mel\Documents\GitHub\Ignia.TechAssessment\ServerHosting\ServerHosting.Core\obj\Release\ServerHosting.Core.pdb
